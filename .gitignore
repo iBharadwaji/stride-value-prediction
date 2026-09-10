@@ -1,0 +1,27 @@
+# Course-provided framework and graded-submission artifacts must never be
+# committed to this repository. See README, "This is a code exhibit".
+metadata.yml
+Makefile
+
+# Framework sources, in case anything is ever copied in by accident
+main.cc
+pipeline.*
+fetchunit.*
+lsu.*
+renamer.cc
+renamer.h
+checker.cc
+checkpoint.cc
+tage-sc-l*
+gshare.*
+btb.*
+ras.*
+svdpi.h
+
+# Traces, results, binaries
+*.o
+*.d
+*.out
+sim
+*.trace
+*.gz
